@@ -1,6 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Obligatoriu pentru schimbat scene
-
+using UnityEngine.SceneManagement; 
 public class MeniuManager : MonoBehaviour
 {
     public void PornesteJocul()
@@ -10,6 +9,6 @@ public class MeniuManager : MonoBehaviour
     }
     public void MergiLaMeniu()
     {
-    SceneManager.LoadScene("MainMeniu"); // Pune numele exact al scenei tale de start
+    SceneManager.LoadScene("MainMeniu"); 
     }
 }
